@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99DFD6401CF9EBA70038D243 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DFD63F1CF9EBA70038D243 /* main.m */; };
+		99DFD6431CF9EBA80038D243 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DFD6421CF9EBA80038D243 /* AppDelegate.m */; };
+		99DFD6461CF9EBA80038D243 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DFD6451CF9EBA80038D243 /* ViewController.m */; };
+		99DFD6491CF9EBA80038D243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99DFD6471CF9EBA80038D243 /* Main.storyboard */; };
+		99DFD64B1CF9EBA80038D243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99DFD64A1CF9EBA80038D243 /* Assets.xcassets */; };
+		99DFD64E1CF9EBA80038D243 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99DFD64C1CF9EBA80038D243 /* LaunchScreen.storyboard */; };
+		99DFD6701CF9EC620038D243 /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DFD65A1CF9EC620038D243 /* Map.m */; };
+		99DFD6711CF9EC620038D243 /* Piece.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DFD65D1CF9EC620038D243 /* Piece.m */; };
+		99DFD6721CF9EC620038D243 /* King.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DFD65F1CF9EC620038D243 /* King.m */; };
+		99DFD6731CF9EC620038D243 /* Advisor.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DFD6611CF9EC620038D243 /* Advisor.m */; };
+		99DFD6741CF9EC620038D243 /* Horse.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DFD6631CF9EC620038D243 /* Horse.m */; };
+		99DFD6751CF9EC620038D243 /* Chariot.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DFD6651CF9EC620038D243 /* Chariot.m */; };
+		99DFD6761CF9EC620038D243 /* Cannon.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DFD6671CF9EC620038D243 /* Cannon.m */; };
+		99DFD6771CF9EC620038D243 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DFD66B1CF9EC620038D243 /* Player.m */; };
+		99DFD6781CF9EC620038D243 /* GameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DFD66E1CF9EC620038D243 /* GameObject.m */; };
+		99DFD67B1CF9F08A0038D243 /* Elephant.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DFD67A1CF9F08A0038D243 /* Elephant.m */; };
+		99DFD67E1CF9F0A70038D243 /* Soldier.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DFD67D1CF9F0A70038D243 /* Soldier.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		99DFD63B1CF9EBA70038D243 /* Demo_Chinese_Chess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_Chinese_Chess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99DFD63F1CF9EBA70038D243 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99DFD6411CF9EBA70038D243 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		99DFD6421CF9EBA80038D243 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		99DFD6441CF9EBA80038D243 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		99DFD6451CF9EBA80038D243 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		99DFD6481CF9EBA80038D243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99DFD64A1CF9EBA80038D243 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99DFD64D1CF9EBA80038D243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99DFD64F1CF9EBA80038D243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99DFD6561CF9EBFF0038D243 /* PlayerColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerColor.h; sourceTree = "<group>"; };
+		99DFD6571CF9EBFF0038D243 /* BoardConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardConfig.h; sourceTree = "<group>"; };
+		99DFD6591CF9EC620038D243 /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		99DFD65A1CF9EC620038D243 /* Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map.m; sourceTree = "<group>"; };
+		99DFD65C1CF9EC620038D243 /* Piece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Piece.h; sourceTree = "<group>"; };
+		99DFD65D1CF9EC620038D243 /* Piece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Piece.m; sourceTree = "<group>"; };
+		99DFD65E1CF9EC620038D243 /* King.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = King.h; sourceTree = "<group>"; };
+		99DFD65F1CF9EC620038D243 /* King.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = King.m; sourceTree = "<group>"; };
+		99DFD6601CF9EC620038D243 /* Advisor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Advisor.h; sourceTree = "<group>"; };
+		99DFD6611CF9EC620038D243 /* Advisor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Advisor.m; sourceTree = "<group>"; };
+		99DFD6621CF9EC620038D243 /* Horse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Horse.h; sourceTree = "<group>"; };
+		99DFD6631CF9EC620038D243 /* Horse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Horse.m; sourceTree = "<group>"; };
+		99DFD6641CF9EC620038D243 /* Chariot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chariot.h; sourceTree = "<group>"; };
+		99DFD6651CF9EC620038D243 /* Chariot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chariot.m; sourceTree = "<group>"; };
+		99DFD6661CF9EC620038D243 /* Cannon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cannon.h; sourceTree = "<group>"; };
+		99DFD6671CF9EC620038D243 /* Cannon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cannon.m; sourceTree = "<group>"; };
+		99DFD6681CF9EC620038D243 /* BoardProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardProvider.h; sourceTree = "<group>"; };
+		99DFD66A1CF9EC620038D243 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		99DFD66B1CF9EC620038D243 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		99DFD66D1CF9EC620038D243 /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObject.h; sourceTree = "<group>"; };
+		99DFD66E1CF9EC620038D243 /* GameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameObject.m; sourceTree = "<group>"; };
+		99DFD6791CF9F08A0038D243 /* Elephant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Elephant.h; sourceTree = "<group>"; };
+		99DFD67A1CF9F08A0038D243 /* Elephant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Elephant.m; sourceTree = "<group>"; };
+		99DFD67C1CF9F0A70038D243 /* Soldier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Soldier.h; sourceTree = "<group>"; };
+		99DFD67D1CF9F0A70038D243 /* Soldier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Soldier.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99DFD6381CF9EBA70038D243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99DFD6321CF9EBA70038D243 = {
+			isa = PBXGroup;
+			children = (
+				99DFD63D1CF9EBA70038D243 /* Demo_Chinese_Chess */,
+				99DFD63C1CF9EBA70038D243 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99DFD63C1CF9EBA70038D243 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99DFD63B1CF9EBA70038D243 /* Demo_Chinese_Chess.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99DFD63D1CF9EBA70038D243 /* Demo_Chinese_Chess */ = {
+			isa = PBXGroup;
+			children = (
+				99DFD6411CF9EBA70038D243 /* AppDelegate.h */,
+				99DFD6421CF9EBA80038D243 /* AppDelegate.m */,
+				99DFD6551CF9EBE20038D243 /* Lib */,
+				99DFD6441CF9EBA80038D243 /* ViewController.h */,
+				99DFD6451CF9EBA80038D243 /* ViewController.m */,
+				99DFD6471CF9EBA80038D243 /* Main.storyboard */,
+				99DFD64A1CF9EBA80038D243 /* Assets.xcassets */,
+				99DFD64C1CF9EBA80038D243 /* LaunchScreen.storyboard */,
+				99DFD64F1CF9EBA80038D243 /* Info.plist */,
+				99DFD63E1CF9EBA70038D243 /* Supporting Files */,
+			);
+			path = Demo_Chinese_Chess;
+			sourceTree = "<group>";
+		};
+		99DFD63E1CF9EBA70038D243 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99DFD63F1CF9EBA70038D243 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99DFD6551CF9EBE20038D243 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				99DFD6581CF9EBFF0038D243 /* Utilities */,
+				99DFD65B1CF9EC620038D243 /* Game Manager */,
+				99DFD66F1CF9EC620038D243 /* Model */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		99DFD6581CF9EBFF0038D243 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				99DFD6561CF9EBFF0038D243 /* PlayerColor.h */,
+				99DFD6571CF9EBFF0038D243 /* BoardConfig.h */,
+			);
+			name = Utilities;
+			path = ../../../../../../../../Users/Mr.Vu/iOS3ChessProjects/Chinese/ChineseChess;
+			sourceTree = "<group>";
+		};
+		99DFD65B1CF9EC620038D243 /* Game Manager */ = {
+			isa = PBXGroup;
+			children = (
+				99DFD6591CF9EC620038D243 /* Map.h */,
+				99DFD65A1CF9EC620038D243 /* Map.m */,
+			);
+			name = "Game Manager";
+			path = ../../../../../../../../Users/Mr.Vu/iOS3ChessProjects/Chinese/ChineseChess;
+			sourceTree = "<group>";
+		};
+		99DFD6691CF9EC620038D243 /* Piece */ = {
+			isa = PBXGroup;
+			children = (
+				99DFD65C1CF9EC620038D243 /* Piece.h */,
+				99DFD65D1CF9EC620038D243 /* Piece.m */,
+				99DFD65E1CF9EC620038D243 /* King.h */,
+				99DFD65F1CF9EC620038D243 /* King.m */,
+				99DFD6601CF9EC620038D243 /* Advisor.h */,
+				99DFD6611CF9EC620038D243 /* Advisor.m */,
+				99DFD6621CF9EC620038D243 /* Horse.h */,
+				99DFD6631CF9EC620038D243 /* Horse.m */,
+				99DFD6641CF9EC620038D243 /* Chariot.h */,
+				99DFD6651CF9EC620038D243 /* Chariot.m */,
+				99DFD6661CF9EC620038D243 /* Cannon.h */,
+				99DFD6671CF9EC620038D243 /* Cannon.m */,
+				99DFD6681CF9EC620038D243 /* BoardProvider.h */,
+				99DFD6791CF9F08A0038D243 /* Elephant.h */,
+				99DFD67A1CF9F08A0038D243 /* Elephant.m */,
+				99DFD67C1CF9F0A70038D243 /* Soldier.h */,
+				99DFD67D1CF9F0A70038D243 /* Soldier.m */,
+			);
+			name = Piece;
+			sourceTree = "<group>";
+		};
+		99DFD66C1CF9EC620038D243 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				99DFD66A1CF9EC620038D243 /* Player.h */,
+				99DFD66B1CF9EC620038D243 /* Player.m */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		99DFD66F1CF9EC620038D243 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				99DFD6691CF9EC620038D243 /* Piece */,
+				99DFD66C1CF9EC620038D243 /* Player */,
+				99DFD66D1CF9EC620038D243 /* GameObject.h */,
+				99DFD66E1CF9EC620038D243 /* GameObject.m */,
+			);
+			name = Model;
+			path = ../../../../../../../../Users/Mr.Vu/iOS3ChessProjects/Chinese/ChineseChess;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99DFD63A1CF9EBA70038D243 /* Demo_Chinese_Chess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99DFD6521CF9EBA80038D243 /* Build configuration list for PBXNativeTarget "Demo_Chinese_Chess" */;
+			buildPhases = (
+				99DFD6371CF9EBA70038D243 /* Sources */,
+				99DFD6381CF9EBA70038D243 /* Frameworks */,
+				99DFD6391CF9EBA70038D243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo_Chinese_Chess;
+			productName = Demo_Chinese_Chess;
+			productReference = 99DFD63B1CF9EBA70038D243 /* Demo_Chinese_Chess.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99DFD6331CF9EBA70038D243 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Mr.Vu;
+				TargetAttributes = {
+					99DFD63A1CF9EBA70038D243 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 56YJ3N6KSG;
+					};
+				};
+			};
+			buildConfigurationList = 99DFD6361CF9EBA70038D243 /* Build configuration list for PBXProject "Demo_Chinese_Chess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99DFD6321CF9EBA70038D243;
+			productRefGroup = 99DFD63C1CF9EBA70038D243 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99DFD63A1CF9EBA70038D243 /* Demo_Chinese_Chess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99DFD6391CF9EBA70038D243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DFD64E1CF9EBA80038D243 /* LaunchScreen.storyboard in Resources */,
+				99DFD64B1CF9EBA80038D243 /* Assets.xcassets in Resources */,
+				99DFD6491CF9EBA80038D243 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99DFD6371CF9EBA70038D243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DFD6461CF9EBA80038D243 /* ViewController.m in Sources */,
+				99DFD6731CF9EC620038D243 /* Advisor.m in Sources */,
+				99DFD6761CF9EC620038D243 /* Cannon.m in Sources */,
+				99DFD6431CF9EBA80038D243 /* AppDelegate.m in Sources */,
+				99DFD6781CF9EC620038D243 /* GameObject.m in Sources */,
+				99DFD6741CF9EC620038D243 /* Horse.m in Sources */,
+				99DFD67E1CF9F0A70038D243 /* Soldier.m in Sources */,
+				99DFD6711CF9EC620038D243 /* Piece.m in Sources */,
+				99DFD6771CF9EC620038D243 /* Player.m in Sources */,
+				99DFD6701CF9EC620038D243 /* Map.m in Sources */,
+				99DFD6721CF9EC620038D243 /* King.m in Sources */,
+				99DFD67B1CF9F08A0038D243 /* Elephant.m in Sources */,
+				99DFD6751CF9EC620038D243 /* Chariot.m in Sources */,
+				99DFD6401CF9EBA70038D243 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99DFD6471CF9EBA80038D243 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99DFD6481CF9EBA80038D243 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99DFD64C1CF9EBA80038D243 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99DFD64D1CF9EBA80038D243 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99DFD6501CF9EBA80038D243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99DFD6511CF9EBA80038D243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99DFD6531CF9EBA80038D243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Demo_Chinese_Chess/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vu.Demo-Chinese-Chess";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		99DFD6541CF9EBA80038D243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Demo_Chinese_Chess/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vu.Demo-Chinese-Chess";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99DFD6361CF9EBA70038D243 /* Build configuration list for PBXProject "Demo_Chinese_Chess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99DFD6501CF9EBA80038D243 /* Debug */,
+				99DFD6511CF9EBA80038D243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99DFD6521CF9EBA80038D243 /* Build configuration list for PBXNativeTarget "Demo_Chinese_Chess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99DFD6531CF9EBA80038D243 /* Debug */,
+				99DFD6541CF9EBA80038D243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99DFD6331CF9EBA70038D243 /* Project object */;
+}
