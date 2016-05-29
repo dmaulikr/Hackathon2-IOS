@@ -20,13 +20,13 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     UIImageView *imvChessType = [cell.contentView viewWithTag:1];
     if(indexPath.row == 0) {
-        imvChessType.image = [UIImage imageNamed:@""];
+        imvChessType.image = [UIImage imageNamed:@"GoIcon.png"];
     }
     else if(indexPath.row == 1) {
-        imvChessType.image = [UIImage imageNamed:@""];
+        imvChessType.image = [UIImage imageNamed:@"ChineseChessIcon.png"];
     }
     if(indexPath.row == 2) {
-        imvChessType.image = [UIImage imageNamed:@""];
+        imvChessType.image = [UIImage imageNamed:@"GoIcon.png"];
     }
     
     return cell;

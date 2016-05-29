@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		99CAF12E1CFA96D1002809F5 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CAF12D1CFA96D1002809F5 /* MenuViewController.m */; };
-		99CAF1341CFA98BF002809F5 /* ChessBoardIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 99CAF1301CFA98BF002809F5 /* ChessBoardIcon.png */; };
-		99CAF1351CFA98BF002809F5 /* ChineseChessBoardIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 99CAF1311CFA98BF002809F5 /* ChineseChessBoardIcon.png */; };
-		99CAF1361CFA98BF002809F5 /* GoBoardIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 99CAF1321CFA98BF002809F5 /* GoBoardIcon.png */; };
+		99CAF1341CFA98BF002809F5 /* ChessIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 99CAF1301CFA98BF002809F5 /* ChessIcon.png */; };
+		99CAF1351CFA98BF002809F5 /* ChineseChessIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 99CAF1311CFA98BF002809F5 /* ChineseChessIcon.png */; };
+		99CAF1361CFA98BF002809F5 /* GoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 99CAF1321CFA98BF002809F5 /* GoIcon.png */; };
 		99CAF1371CFA98BF002809F5 /* Logo.Png in Resources */ = {isa = PBXBuildFile; fileRef = 99CAF1331CFA98BF002809F5 /* Logo.Png */; };
 		99DFD6401CF9EBA70038D243 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DFD63F1CF9EBA70038D243 /* main.m */; };
 		99DFD6431CF9EBA80038D243 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DFD6421CF9EBA80038D243 /* AppDelegate.m */; };
@@ -34,9 +34,9 @@
 /* Begin PBXFileReference section */
 		99CAF12C1CFA96D1002809F5 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		99CAF12D1CFA96D1002809F5 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
-		99CAF1301CFA98BF002809F5 /* ChessBoardIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChessBoardIcon.png; sourceTree = "<group>"; };
-		99CAF1311CFA98BF002809F5 /* ChineseChessBoardIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChineseChessBoardIcon.png; sourceTree = "<group>"; };
-		99CAF1321CFA98BF002809F5 /* GoBoardIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoBoardIcon.png; sourceTree = "<group>"; };
+		99CAF1301CFA98BF002809F5 /* ChessIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChessIcon.png; sourceTree = "<group>"; };
+		99CAF1311CFA98BF002809F5 /* ChineseChessIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChineseChessIcon.png; sourceTree = "<group>"; };
+		99CAF1321CFA98BF002809F5 /* GoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoIcon.png; sourceTree = "<group>"; };
 		99CAF1331CFA98BF002809F5 /* Logo.Png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.Png; sourceTree = "<group>"; };
 		99DFD63B1CF9EBA70038D243 /* Demo_Chinese_Chess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_Chinese_Chess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99DFD63F1CF9EBA70038D243 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -100,9 +100,9 @@
 		99CAF12F1CFA98AE002809F5 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				99CAF1301CFA98BF002809F5 /* ChessBoardIcon.png */,
-				99CAF1311CFA98BF002809F5 /* ChineseChessBoardIcon.png */,
-				99CAF1321CFA98BF002809F5 /* GoBoardIcon.png */,
+				99CAF1301CFA98BF002809F5 /* ChessIcon.png */,
+				99CAF1311CFA98BF002809F5 /* ChineseChessIcon.png */,
+				99CAF1321CFA98BF002809F5 /* GoIcon.png */,
 				99CAF1331CFA98BF002809F5 /* Logo.Png */,
 			);
 			name = Assets;
@@ -282,10 +282,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99CAF1351CFA98BF002809F5 /* ChineseChessBoardIcon.png in Resources */,
-				99CAF1341CFA98BF002809F5 /* ChessBoardIcon.png in Resources */,
+				99CAF1351CFA98BF002809F5 /* ChineseChessIcon.png in Resources */,
+				99CAF1341CFA98BF002809F5 /* ChessIcon.png in Resources */,
 				99DFD64E1CF9EBA80038D243 /* LaunchScreen.storyboard in Resources */,
-				99CAF1361CFA98BF002809F5 /* GoBoardIcon.png in Resources */,
+				99CAF1361CFA98BF002809F5 /* GoIcon.png in Resources */,
 				99DFD64B1CF9EBA80038D243 /* Assets.xcassets in Resources */,
 				99CAF1371CFA98BF002809F5 /* Logo.Png in Resources */,
 				99DFD6491CF9EBA80038D243 /* Main.storyboard in Resources */,
