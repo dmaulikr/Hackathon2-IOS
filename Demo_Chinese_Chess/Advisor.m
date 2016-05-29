@@ -26,7 +26,7 @@
 }
 
 //- (BOOL)checkMoveWithPositionX:(NSInteger)nextPositionX PositionY:(NSInteger)nextpositionY; {
-//    
+//
 //    if(nextPositionX >= self.minX && nextPositionX <= self.maxX && nextpositionY >= self.minY && nextpositionY <= self.maxY){
 //        if([self checkMove:nextPositionX PositionY:nextpositionY]) {
 //            return YES;
@@ -34,8 +34,8 @@
 //            return NO;
 //        }
 //    }
-//    
-//    
+//
+//
 //    return NO;
 //}
 //
@@ -48,7 +48,7 @@
 //                                                     || (nextPositionY == self.column - 1))) {
 //        return YES;
 //    }
-//    
+//
 //    return FALSE;
 //}
 

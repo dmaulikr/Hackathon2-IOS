@@ -7,6 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8466D3E51CFAA5E80045AA44 /* Piece.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466D3DF1CFAA5E80045AA44 /* Piece.m */; };
+		8466D3E61CFAA5E80045AA44 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466D3E11CFAA5E80045AA44 /* Player.m */; };
+		8466D3E71CFAA5E80045AA44 /* Soldier.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466D3E41CFAA5E80045AA44 /* Soldier.m */; };
+		8466D3F11CFAA5F80045AA44 /* Cannon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466D3EE1CFAA5F80045AA44 /* Cannon.m */; };
+		8466D3F21CFAA5F80045AA44 /* Chariot.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466D3F01CFAA5F80045AA44 /* Chariot.m */; };
+		8466D3F71CFAA5FD0045AA44 /* Elephant.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466D3F41CFAA5FD0045AA44 /* Elephant.m */; };
+		8466D3F81CFAA5FD0045AA44 /* GameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466D3F61CFAA5FD0045AA44 /* GameObject.m */; };
+		8466D3FF1CFAA60A0045AA44 /* Horse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466D3FA1CFAA60A0045AA44 /* Horse.m */; };
+		8466D4001CFAA60A0045AA44 /* King.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466D3FC1CFAA60A0045AA44 /* King.m */; };
+		8466D4011CFAA60A0045AA44 /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466D3FE1CFAA60A0045AA44 /* Map.m */; };
+		8466D41F1CFAADEA0045AA44 /* blueCatapult.png in Resources */ = {isa = PBXBuildFile; fileRef = 8466D4061CFAADEA0045AA44 /* blueCatapult.png */; };
+		8466D4201CFAADEA0045AA44 /* blueCavarly.png in Resources */ = {isa = PBXBuildFile; fileRef = 8466D4071CFAADEA0045AA44 /* blueCavarly.png */; };
+		8466D4211CFAADEA0045AA44 /* blueElephant.png in Resources */ = {isa = PBXBuildFile; fileRef = 8466D4081CFAADEA0045AA44 /* blueElephant.png */; };
+		8466D4221CFAADEA0045AA44 /* blueGeneral.png in Resources */ = {isa = PBXBuildFile; fileRef = 8466D4091CFAADEA0045AA44 /* blueGeneral.png */; };
+		8466D4231CFAADEA0045AA44 /* blueGuard.png in Resources */ = {isa = PBXBuildFile; fileRef = 8466D40A1CFAADEA0045AA44 /* blueGuard.png */; };
+		8466D4241CFAADEA0045AA44 /* bluePreviousPoint.png in Resources */ = {isa = PBXBuildFile; fileRef = 8466D40B1CFAADEA0045AA44 /* bluePreviousPoint.png */; };
+		8466D4251CFAADEA0045AA44 /* blueRook.png in Resources */ = {isa = PBXBuildFile; fileRef = 8466D40C1CFAADEA0045AA44 /* blueRook.png */; };
+		8466D4261CFAADEA0045AA44 /* blueSoldier.png in Resources */ = {isa = PBXBuildFile; fileRef = 8466D40D1CFAADEA0045AA44 /* blueSoldier.png */; };
+		8466D4271CFAADEA0045AA44 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 8466D40E1CFAADEA0045AA44 /* board.png */; };
+		8466D4281CFAADEA0045AA44 /* boardBG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8466D40F1CFAADEA0045AA44 /* boardBG.jpg */; };
+		8466D4291CFAADEA0045AA44 /* boardBGVertical.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8466D4101CFAADEA0045AA44 /* boardBGVertical.jpg */; };
+		8466D42A1CFAADEA0045AA44 /* effBlueJustMove.png in Resources */ = {isa = PBXBuildFile; fileRef = 8466D4111CFAADEA0045AA44 /* effBlueJustMove.png */; };
+		8466D42B1CFAADEA0045AA44 /* effectChieuTuong.png in Resources */ = {isa = PBXBuildFile; fileRef = 8466D4121CFAADEA0045AA44 /* effectChieuTuong.png */; };
+		8466D42C1CFAADEA0045AA44 /* effectSelect.png in Resources */ = {isa = PBXBuildFile; fileRef = 8466D4131CFAADEA0045AA44 /* effectSelect.png */; };
+		8466D42D1CFAADEA0045AA44 /* effectSuggest.png in Resources */ = {isa = PBXBuildFile; fileRef = 8466D4141CFAADEA0045AA44 /* effectSuggest.png */; };
+		8466D42E1CFAADEA0045AA44 /* effRedJustMove.png in Resources */ = {isa = PBXBuildFile; fileRef = 8466D4151CFAADEA0045AA44 /* effRedJustMove.png */; };
+		8466D42F1CFAADEA0045AA44 /* redCatapult.png in Resources */ = {isa = PBXBuildFile; fileRef = 8466D4161CFAADEA0045AA44 /* redCatapult.png */; };
+		8466D4301CFAADEA0045AA44 /* redCavarly.png in Resources */ = {isa = PBXBuildFile; fileRef = 8466D4171CFAADEA0045AA44 /* redCavarly.png */; };
+		8466D4311CFAADEA0045AA44 /* redElephant.png in Resources */ = {isa = PBXBuildFile; fileRef = 8466D4181CFAADEA0045AA44 /* redElephant.png */; };
+		8466D4321CFAADEA0045AA44 /* redGeneral.png in Resources */ = {isa = PBXBuildFile; fileRef = 8466D4191CFAADEA0045AA44 /* redGeneral.png */; };
+		8466D4331CFAADEA0045AA44 /* redGuard.png in Resources */ = {isa = PBXBuildFile; fileRef = 8466D41A1CFAADEA0045AA44 /* redGuard.png */; };
+		8466D4341CFAADEA0045AA44 /* redPreviousPoint.png in Resources */ = {isa = PBXBuildFile; fileRef = 8466D41B1CFAADEA0045AA44 /* redPreviousPoint.png */; };
+		8466D4351CFAADEA0045AA44 /* redRook.png in Resources */ = {isa = PBXBuildFile; fileRef = 8466D41C1CFAADEA0045AA44 /* redRook.png */; };
+		8466D4361CFAADEA0045AA44 /* redSoldier.png in Resources */ = {isa = PBXBuildFile; fileRef = 8466D41D1CFAADEA0045AA44 /* redSoldier.png */; };
+		8466D4371CFAADEA0045AA44 /* signX.png in Resources */ = {isa = PBXBuildFile; fileRef = 8466D41E1CFAADEA0045AA44 /* signX.png */; };
+		8466D43A1CFAB1470045AA44 /* Advisor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466D4391CFAB1470045AA44 /* Advisor.m */; };
 		99CAF12E1CFA96D1002809F5 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CAF12D1CFA96D1002809F5 /* MenuViewController.m */; };
 		99CAF1341CFA98BF002809F5 /* ChessIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 99CAF1301CFA98BF002809F5 /* ChessIcon.png */; };
 		99CAF1351CFA98BF002809F5 /* ChineseChessIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 99CAF1311CFA98BF002809F5 /* ChineseChessIcon.png */; };
@@ -19,20 +55,59 @@
 		99DFD6491CF9EBA80038D243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99DFD6471CF9EBA80038D243 /* Main.storyboard */; };
 		99DFD64B1CF9EBA80038D243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99DFD64A1CF9EBA80038D243 /* Assets.xcassets */; };
 		99DFD64E1CF9EBA80038D243 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99DFD64C1CF9EBA80038D243 /* LaunchScreen.storyboard */; };
-		99DFD6701CF9EC620038D243 /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DFD65A1CF9EC620038D243 /* Map.m */; };
-		99DFD6711CF9EC620038D243 /* Piece.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DFD65D1CF9EC620038D243 /* Piece.m */; };
-		99DFD6721CF9EC620038D243 /* King.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DFD65F1CF9EC620038D243 /* King.m */; };
-		99DFD6731CF9EC620038D243 /* Advisor.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DFD6611CF9EC620038D243 /* Advisor.m */; };
-		99DFD6741CF9EC620038D243 /* Horse.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DFD6631CF9EC620038D243 /* Horse.m */; };
-		99DFD6751CF9EC620038D243 /* Chariot.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DFD6651CF9EC620038D243 /* Chariot.m */; };
-		99DFD6761CF9EC620038D243 /* Cannon.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DFD6671CF9EC620038D243 /* Cannon.m */; };
-		99DFD6771CF9EC620038D243 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DFD66B1CF9EC620038D243 /* Player.m */; };
-		99DFD6781CF9EC620038D243 /* GameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DFD66E1CF9EC620038D243 /* GameObject.m */; };
-		99DFD67B1CF9F08A0038D243 /* Elephant.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DFD67A1CF9F08A0038D243 /* Elephant.m */; };
-		99DFD67E1CF9F0A70038D243 /* Soldier.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DFD67D1CF9F0A70038D243 /* Soldier.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8466D3DE1CFAA5E80045AA44 /* Piece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Piece.h; path = Demo_Chinese_Chess/Piece.h; sourceTree = SOURCE_ROOT; };
+		8466D3DF1CFAA5E80045AA44 /* Piece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Piece.m; path = Demo_Chinese_Chess/Piece.m; sourceTree = SOURCE_ROOT; };
+		8466D3E01CFAA5E80045AA44 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = Demo_Chinese_Chess/Player.h; sourceTree = SOURCE_ROOT; };
+		8466D3E11CFAA5E80045AA44 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Player.m; path = Demo_Chinese_Chess/Player.m; sourceTree = SOURCE_ROOT; };
+		8466D3E21CFAA5E80045AA44 /* PlayerColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerColor.h; path = Demo_Chinese_Chess/PlayerColor.h; sourceTree = SOURCE_ROOT; };
+		8466D3E31CFAA5E80045AA44 /* Soldier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Soldier.h; path = Demo_Chinese_Chess/Soldier.h; sourceTree = SOURCE_ROOT; };
+		8466D3E41CFAA5E80045AA44 /* Soldier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Soldier.m; path = Demo_Chinese_Chess/Soldier.m; sourceTree = SOURCE_ROOT; };
+		8466D3EB1CFAA5F80045AA44 /* BoardConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BoardConfig.h; path = Demo_Chinese_Chess/BoardConfig.h; sourceTree = SOURCE_ROOT; };
+		8466D3EC1CFAA5F80045AA44 /* BoardProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BoardProvider.h; path = Demo_Chinese_Chess/BoardProvider.h; sourceTree = SOURCE_ROOT; };
+		8466D3ED1CFAA5F80045AA44 /* Cannon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cannon.h; path = Demo_Chinese_Chess/Cannon.h; sourceTree = SOURCE_ROOT; };
+		8466D3EE1CFAA5F80045AA44 /* Cannon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cannon.m; path = Demo_Chinese_Chess/Cannon.m; sourceTree = SOURCE_ROOT; };
+		8466D3EF1CFAA5F80045AA44 /* Chariot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Chariot.h; path = Demo_Chinese_Chess/Chariot.h; sourceTree = SOURCE_ROOT; };
+		8466D3F01CFAA5F80045AA44 /* Chariot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Chariot.m; path = Demo_Chinese_Chess/Chariot.m; sourceTree = SOURCE_ROOT; };
+		8466D3F31CFAA5FD0045AA44 /* Elephant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Elephant.h; path = Demo_Chinese_Chess/Elephant.h; sourceTree = SOURCE_ROOT; };
+		8466D3F41CFAA5FD0045AA44 /* Elephant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Elephant.m; path = Demo_Chinese_Chess/Elephant.m; sourceTree = SOURCE_ROOT; };
+		8466D3F51CFAA5FD0045AA44 /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameObject.h; path = Demo_Chinese_Chess/GameObject.h; sourceTree = SOURCE_ROOT; };
+		8466D3F61CFAA5FD0045AA44 /* GameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameObject.m; path = Demo_Chinese_Chess/GameObject.m; sourceTree = SOURCE_ROOT; };
+		8466D3F91CFAA60A0045AA44 /* Horse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Horse.h; path = Demo_Chinese_Chess/Horse.h; sourceTree = SOURCE_ROOT; };
+		8466D3FA1CFAA60A0045AA44 /* Horse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Horse.m; path = Demo_Chinese_Chess/Horse.m; sourceTree = SOURCE_ROOT; };
+		8466D3FB1CFAA60A0045AA44 /* King.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = King.h; path = Demo_Chinese_Chess/King.h; sourceTree = SOURCE_ROOT; };
+		8466D3FC1CFAA60A0045AA44 /* King.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = King.m; path = Demo_Chinese_Chess/King.m; sourceTree = SOURCE_ROOT; };
+		8466D3FD1CFAA60A0045AA44 /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Map.h; path = Demo_Chinese_Chess/Map.h; sourceTree = SOURCE_ROOT; };
+		8466D3FE1CFAA60A0045AA44 /* Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Map.m; path = Demo_Chinese_Chess/Map.m; sourceTree = SOURCE_ROOT; };
+		8466D4061CFAADEA0045AA44 /* blueCatapult.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueCatapult.png; sourceTree = "<group>"; };
+		8466D4071CFAADEA0045AA44 /* blueCavarly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueCavarly.png; sourceTree = "<group>"; };
+		8466D4081CFAADEA0045AA44 /* blueElephant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueElephant.png; sourceTree = "<group>"; };
+		8466D4091CFAADEA0045AA44 /* blueGeneral.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueGeneral.png; sourceTree = "<group>"; };
+		8466D40A1CFAADEA0045AA44 /* blueGuard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueGuard.png; sourceTree = "<group>"; };
+		8466D40B1CFAADEA0045AA44 /* bluePreviousPoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluePreviousPoint.png; sourceTree = "<group>"; };
+		8466D40C1CFAADEA0045AA44 /* blueRook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueRook.png; sourceTree = "<group>"; };
+		8466D40D1CFAADEA0045AA44 /* blueSoldier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueSoldier.png; sourceTree = "<group>"; };
+		8466D40E1CFAADEA0045AA44 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		8466D40F1CFAADEA0045AA44 /* boardBG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boardBG.jpg; sourceTree = "<group>"; };
+		8466D4101CFAADEA0045AA44 /* boardBGVertical.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boardBGVertical.jpg; sourceTree = "<group>"; };
+		8466D4111CFAADEA0045AA44 /* effBlueJustMove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = effBlueJustMove.png; sourceTree = "<group>"; };
+		8466D4121CFAADEA0045AA44 /* effectChieuTuong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = effectChieuTuong.png; sourceTree = "<group>"; };
+		8466D4131CFAADEA0045AA44 /* effectSelect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = effectSelect.png; sourceTree = "<group>"; };
+		8466D4141CFAADEA0045AA44 /* effectSuggest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = effectSuggest.png; sourceTree = "<group>"; };
+		8466D4151CFAADEA0045AA44 /* effRedJustMove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = effRedJustMove.png; sourceTree = "<group>"; };
+		8466D4161CFAADEA0045AA44 /* redCatapult.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redCatapult.png; sourceTree = "<group>"; };
+		8466D4171CFAADEA0045AA44 /* redCavarly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redCavarly.png; sourceTree = "<group>"; };
+		8466D4181CFAADEA0045AA44 /* redElephant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redElephant.png; sourceTree = "<group>"; };
+		8466D4191CFAADEA0045AA44 /* redGeneral.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redGeneral.png; sourceTree = "<group>"; };
+		8466D41A1CFAADEA0045AA44 /* redGuard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redGuard.png; sourceTree = "<group>"; };
+		8466D41B1CFAADEA0045AA44 /* redPreviousPoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redPreviousPoint.png; sourceTree = "<group>"; };
+		8466D41C1CFAADEA0045AA44 /* redRook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redRook.png; sourceTree = "<group>"; };
+		8466D41D1CFAADEA0045AA44 /* redSoldier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redSoldier.png; sourceTree = "<group>"; };
+		8466D41E1CFAADEA0045AA44 /* signX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signX.png; sourceTree = "<group>"; };
+		8466D4381CFAB1470045AA44 /* Advisor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Advisor.h; path = Demo_Chinese_Chess/Advisor.h; sourceTree = SOURCE_ROOT; };
+		8466D4391CFAB1470045AA44 /* Advisor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Advisor.m; path = Demo_Chinese_Chess/Advisor.m; sourceTree = SOURCE_ROOT; };
 		99CAF12C1CFA96D1002809F5 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		99CAF12D1CFA96D1002809F5 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		99CAF1301CFA98BF002809F5 /* ChessIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChessIcon.png; sourceTree = "<group>"; };
@@ -51,31 +126,6 @@
 		99DFD64A1CF9EBA80038D243 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99DFD64D1CF9EBA80038D243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99DFD64F1CF9EBA80038D243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		99DFD6561CF9EBFF0038D243 /* PlayerColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerColor.h; sourceTree = "<group>"; };
-		99DFD6571CF9EBFF0038D243 /* BoardConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardConfig.h; sourceTree = "<group>"; };
-		99DFD6591CF9EC620038D243 /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
-		99DFD65A1CF9EC620038D243 /* Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map.m; sourceTree = "<group>"; };
-		99DFD65C1CF9EC620038D243 /* Piece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Piece.h; sourceTree = "<group>"; };
-		99DFD65D1CF9EC620038D243 /* Piece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Piece.m; sourceTree = "<group>"; };
-		99DFD65E1CF9EC620038D243 /* King.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = King.h; sourceTree = "<group>"; };
-		99DFD65F1CF9EC620038D243 /* King.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = King.m; sourceTree = "<group>"; };
-		99DFD6601CF9EC620038D243 /* Advisor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Advisor.h; sourceTree = "<group>"; };
-		99DFD6611CF9EC620038D243 /* Advisor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Advisor.m; sourceTree = "<group>"; };
-		99DFD6621CF9EC620038D243 /* Horse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Horse.h; sourceTree = "<group>"; };
-		99DFD6631CF9EC620038D243 /* Horse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Horse.m; sourceTree = "<group>"; };
-		99DFD6641CF9EC620038D243 /* Chariot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chariot.h; sourceTree = "<group>"; };
-		99DFD6651CF9EC620038D243 /* Chariot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chariot.m; sourceTree = "<group>"; };
-		99DFD6661CF9EC620038D243 /* Cannon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cannon.h; sourceTree = "<group>"; };
-		99DFD6671CF9EC620038D243 /* Cannon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cannon.m; sourceTree = "<group>"; };
-		99DFD6681CF9EC620038D243 /* BoardProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardProvider.h; sourceTree = "<group>"; };
-		99DFD66A1CF9EC620038D243 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
-		99DFD66B1CF9EC620038D243 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
-		99DFD66D1CF9EC620038D243 /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObject.h; sourceTree = "<group>"; };
-		99DFD66E1CF9EC620038D243 /* GameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameObject.m; sourceTree = "<group>"; };
-		99DFD6791CF9F08A0038D243 /* Elephant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Elephant.h; sourceTree = "<group>"; };
-		99DFD67A1CF9F08A0038D243 /* Elephant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Elephant.m; sourceTree = "<group>"; };
-		99DFD67C1CF9F0A70038D243 /* Soldier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Soldier.h; sourceTree = "<group>"; };
-		99DFD67D1CF9F0A70038D243 /* Soldier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Soldier.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +139,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8466D4051CFAADEA0045AA44 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8466D4061CFAADEA0045AA44 /* blueCatapult.png */,
+				8466D4071CFAADEA0045AA44 /* blueCavarly.png */,
+				8466D4081CFAADEA0045AA44 /* blueElephant.png */,
+				8466D4091CFAADEA0045AA44 /* blueGeneral.png */,
+				8466D40A1CFAADEA0045AA44 /* blueGuard.png */,
+				8466D40B1CFAADEA0045AA44 /* bluePreviousPoint.png */,
+				8466D40C1CFAADEA0045AA44 /* blueRook.png */,
+				8466D40D1CFAADEA0045AA44 /* blueSoldier.png */,
+				8466D40E1CFAADEA0045AA44 /* board.png */,
+				8466D40F1CFAADEA0045AA44 /* boardBG.jpg */,
+				8466D4101CFAADEA0045AA44 /* boardBGVertical.jpg */,
+				8466D4111CFAADEA0045AA44 /* effBlueJustMove.png */,
+				8466D4121CFAADEA0045AA44 /* effectChieuTuong.png */,
+				8466D4131CFAADEA0045AA44 /* effectSelect.png */,
+				8466D4141CFAADEA0045AA44 /* effectSuggest.png */,
+				8466D4151CFAADEA0045AA44 /* effRedJustMove.png */,
+				8466D4161CFAADEA0045AA44 /* redCatapult.png */,
+				8466D4171CFAADEA0045AA44 /* redCavarly.png */,
+				8466D4181CFAADEA0045AA44 /* redElephant.png */,
+				8466D4191CFAADEA0045AA44 /* redGeneral.png */,
+				8466D41A1CFAADEA0045AA44 /* redGuard.png */,
+				8466D41B1CFAADEA0045AA44 /* redPreviousPoint.png */,
+				8466D41C1CFAADEA0045AA44 /* redRook.png */,
+				8466D41D1CFAADEA0045AA44 /* redSoldier.png */,
+				8466D41E1CFAADEA0045AA44 /* signX.png */,
+			);
+			name = Resources;
+			path = GUIBoard;
+			sourceTree = "<group>";
+		};
 		99CAF12B1CFA9226002809F5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +215,7 @@
 		99DFD63D1CF9EBA70038D243 /* Demo_Chinese_Chess */ = {
 			isa = PBXGroup;
 			children = (
+				8466D4051CFAADEA0045AA44 /* Resources */,
 				99CAF12F1CFA98AE002809F5 /* Assets */,
 				99DFD6411CF9EBA70038D243 /* AppDelegate.h */,
 				99DFD6421CF9EBA80038D243 /* AppDelegate.m */,
@@ -167,8 +251,8 @@
 		99DFD6581CF9EBFF0038D243 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				99DFD6561CF9EBFF0038D243 /* PlayerColor.h */,
-				99DFD6571CF9EBFF0038D243 /* BoardConfig.h */,
+				8466D3E21CFAA5E80045AA44 /* PlayerColor.h */,
+				8466D3EB1CFAA5F80045AA44 /* BoardConfig.h */,
 			);
 			name = Utilities;
 			path = ../../../../../../../../Users/Mr.Vu/iOS3ChessProjects/Chinese/ChineseChess;
@@ -177,8 +261,8 @@
 		99DFD65B1CF9EC620038D243 /* Game Manager */ = {
 			isa = PBXGroup;
 			children = (
-				99DFD6591CF9EC620038D243 /* Map.h */,
-				99DFD65A1CF9EC620038D243 /* Map.m */,
+				8466D3FD1CFAA60A0045AA44 /* Map.h */,
+				8466D3FE1CFAA60A0045AA44 /* Map.m */,
 			);
 			name = "Game Manager";
 			path = ../../../../../../../../Users/Mr.Vu/iOS3ChessProjects/Chinese/ChineseChess;
@@ -187,23 +271,25 @@
 		99DFD6691CF9EC620038D243 /* Piece */ = {
 			isa = PBXGroup;
 			children = (
-				99DFD65C1CF9EC620038D243 /* Piece.h */,
-				99DFD65D1CF9EC620038D243 /* Piece.m */,
-				99DFD65F1CF9EC620038D243 /* King.m */,
-				99DFD6601CF9EC620038D243 /* Advisor.h */,
-				99DFD65E1CF9EC620038D243 /* King.h */,
-				99DFD6611CF9EC620038D243 /* Advisor.m */,
-				99DFD6621CF9EC620038D243 /* Horse.h */,
-				99DFD6631CF9EC620038D243 /* Horse.m */,
-				99DFD6641CF9EC620038D243 /* Chariot.h */,
-				99DFD6651CF9EC620038D243 /* Chariot.m */,
-				99DFD6661CF9EC620038D243 /* Cannon.h */,
-				99DFD6671CF9EC620038D243 /* Cannon.m */,
-				99DFD6681CF9EC620038D243 /* BoardProvider.h */,
-				99DFD6791CF9F08A0038D243 /* Elephant.h */,
-				99DFD67A1CF9F08A0038D243 /* Elephant.m */,
-				99DFD67C1CF9F0A70038D243 /* Soldier.h */,
-				99DFD67D1CF9F0A70038D243 /* Soldier.m */,
+				8466D4381CFAB1470045AA44 /* Advisor.h */,
+				8466D4391CFAB1470045AA44 /* Advisor.m */,
+				8466D3EC1CFAA5F80045AA44 /* BoardProvider.h */,
+				8466D3ED1CFAA5F80045AA44 /* Cannon.h */,
+				8466D3EE1CFAA5F80045AA44 /* Cannon.m */,
+				8466D3EF1CFAA5F80045AA44 /* Chariot.h */,
+				8466D3F01CFAA5F80045AA44 /* Chariot.m */,
+				8466D3F31CFAA5FD0045AA44 /* Elephant.h */,
+				8466D3F41CFAA5FD0045AA44 /* Elephant.m */,
+				8466D3F51CFAA5FD0045AA44 /* GameObject.h */,
+				8466D3F61CFAA5FD0045AA44 /* GameObject.m */,
+				8466D3F91CFAA60A0045AA44 /* Horse.h */,
+				8466D3FA1CFAA60A0045AA44 /* Horse.m */,
+				8466D3FB1CFAA60A0045AA44 /* King.h */,
+				8466D3FC1CFAA60A0045AA44 /* King.m */,
+				8466D3DE1CFAA5E80045AA44 /* Piece.h */,
+				8466D3DF1CFAA5E80045AA44 /* Piece.m */,
+				8466D3E31CFAA5E80045AA44 /* Soldier.h */,
+				8466D3E41CFAA5E80045AA44 /* Soldier.m */,
 			);
 			name = Piece;
 			sourceTree = "<group>";
@@ -211,8 +297,8 @@
 		99DFD66C1CF9EC620038D243 /* Player */ = {
 			isa = PBXGroup;
 			children = (
-				99DFD66A1CF9EC620038D243 /* Player.h */,
-				99DFD66B1CF9EC620038D243 /* Player.m */,
+				8466D3E01CFAA5E80045AA44 /* Player.h */,
+				8466D3E11CFAA5E80045AA44 /* Player.m */,
 			);
 			name = Player;
 			sourceTree = "<group>";
@@ -222,8 +308,6 @@
 			children = (
 				99DFD6691CF9EC620038D243 /* Piece */,
 				99DFD66C1CF9EC620038D243 /* Player */,
-				99DFD66D1CF9EC620038D243 /* GameObject.h */,
-				99DFD66E1CF9EC620038D243 /* GameObject.m */,
 			);
 			name = Model;
 			path = ../../../../../../../../Users/Mr.Vu/iOS3ChessProjects/Chinese/ChineseChess;
@@ -287,13 +371,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8466D4301CFAADEA0045AA44 /* redCavarly.png in Resources */,
 				99CAF1351CFA98BF002809F5 /* ChineseChessIcon.png in Resources */,
+				8466D4361CFAADEA0045AA44 /* redSoldier.png in Resources */,
+				8466D4321CFAADEA0045AA44 /* redGeneral.png in Resources */,
+				8466D42A1CFAADEA0045AA44 /* effBlueJustMove.png in Resources */,
+				8466D4371CFAADEA0045AA44 /* signX.png in Resources */,
+				8466D4241CFAADEA0045AA44 /* bluePreviousPoint.png in Resources */,
+				8466D42E1CFAADEA0045AA44 /* effRedJustMove.png in Resources */,
+				8466D41F1CFAADEA0045AA44 /* blueCatapult.png in Resources */,
 				99CAF1341CFA98BF002809F5 /* ChessIcon.png in Resources */,
+				8466D4271CFAADEA0045AA44 /* board.png in Resources */,
+				8466D4291CFAADEA0045AA44 /* boardBGVertical.jpg in Resources */,
+				8466D42B1CFAADEA0045AA44 /* effectChieuTuong.png in Resources */,
+				8466D4231CFAADEA0045AA44 /* blueGuard.png in Resources */,
+				8466D4281CFAADEA0045AA44 /* boardBG.jpg in Resources */,
+				8466D4341CFAADEA0045AA44 /* redPreviousPoint.png in Resources */,
+				8466D42C1CFAADEA0045AA44 /* effectSelect.png in Resources */,
 				99DFD64E1CF9EBA80038D243 /* LaunchScreen.storyboard in Resources */,
+				8466D4311CFAADEA0045AA44 /* redElephant.png in Resources */,
+				8466D4251CFAADEA0045AA44 /* blueRook.png in Resources */,
 				99CAF1361CFA98BF002809F5 /* GoIcon.png in Resources */,
 				99DFD64B1CF9EBA80038D243 /* Assets.xcassets in Resources */,
+				8466D4211CFAADEA0045AA44 /* blueElephant.png in Resources */,
 				99CAF1371CFA98BF002809F5 /* Logo.Png in Resources */,
+				8466D4331CFAADEA0045AA44 /* redGuard.png in Resources */,
+				8466D42D1CFAADEA0045AA44 /* effectSuggest.png in Resources */,
+				8466D42F1CFAADEA0045AA44 /* redCatapult.png in Resources */,
+				8466D4261CFAADEA0045AA44 /* blueSoldier.png in Resources */,
+				8466D4221CFAADEA0045AA44 /* blueGeneral.png in Resources */,
 				99DFD6491CF9EBA80038D243 /* Main.storyboard in Resources */,
+				8466D4351CFAADEA0045AA44 /* redRook.png in Resources */,
+				8466D4201CFAADEA0045AA44 /* blueCavarly.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,21 +413,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8466D4001CFAA60A0045AA44 /* King.m in Sources */,
 				99DFD6461CF9EBA80038D243 /* ViewController.m in Sources */,
-				99DFD6731CF9EC620038D243 /* Advisor.m in Sources */,
-				99DFD6761CF9EC620038D243 /* Cannon.m in Sources */,
+				8466D3F21CFAA5F80045AA44 /* Chariot.m in Sources */,
 				99DFD6431CF9EBA80038D243 /* AppDelegate.m in Sources */,
+				8466D43A1CFAB1470045AA44 /* Advisor.m in Sources */,
 				99CAF12E1CFA96D1002809F5 /* MenuViewController.m in Sources */,
-				99DFD6781CF9EC620038D243 /* GameObject.m in Sources */,
-				99DFD6741CF9EC620038D243 /* Horse.m in Sources */,
-				99DFD67E1CF9F0A70038D243 /* Soldier.m in Sources */,
-				99DFD6711CF9EC620038D243 /* Piece.m in Sources */,
-				99DFD6771CF9EC620038D243 /* Player.m in Sources */,
-				99DFD6701CF9EC620038D243 /* Map.m in Sources */,
+				8466D3F11CFAA5F80045AA44 /* Cannon.m in Sources */,
+				8466D4011CFAA60A0045AA44 /* Map.m in Sources */,
 				99CAF15D1CFA9FFB002809F5 /* ChineseChessViewController.m in Sources */,
-				99DFD6721CF9EC620038D243 /* King.m in Sources */,
-				99DFD67B1CF9F08A0038D243 /* Elephant.m in Sources */,
-				99DFD6751CF9EC620038D243 /* Chariot.m in Sources */,
+				8466D3E51CFAA5E80045AA44 /* Piece.m in Sources */,
+				8466D3F81CFAA5FD0045AA44 /* GameObject.m in Sources */,
+				8466D3E71CFAA5E80045AA44 /* Soldier.m in Sources */,
+				8466D3F71CFAA5FD0045AA44 /* Elephant.m in Sources */,
+				8466D3FF1CFAA60A0045AA44 /* Horse.m in Sources */,
+				8466D3E61CFAA5E80045AA44 /* Player.m in Sources */,
 				99DFD6401CF9EBA70038D243 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
