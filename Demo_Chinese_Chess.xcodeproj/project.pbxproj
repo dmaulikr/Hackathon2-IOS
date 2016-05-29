@@ -12,6 +12,7 @@
 		99CAF1351CFA98BF002809F5 /* ChineseChessIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 99CAF1311CFA98BF002809F5 /* ChineseChessIcon.png */; };
 		99CAF1361CFA98BF002809F5 /* GoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 99CAF1321CFA98BF002809F5 /* GoIcon.png */; };
 		99CAF1371CFA98BF002809F5 /* Logo.Png in Resources */ = {isa = PBXBuildFile; fileRef = 99CAF1331CFA98BF002809F5 /* Logo.Png */; };
+		99CAF15D1CFA9FFB002809F5 /* ChineseChessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CAF15C1CFA9FFB002809F5 /* ChineseChessViewController.m */; };
 		99DFD6401CF9EBA70038D243 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DFD63F1CF9EBA70038D243 /* main.m */; };
 		99DFD6431CF9EBA80038D243 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DFD6421CF9EBA80038D243 /* AppDelegate.m */; };
 		99DFD6461CF9EBA80038D243 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DFD6451CF9EBA80038D243 /* ViewController.m */; };
@@ -38,6 +39,8 @@
 		99CAF1311CFA98BF002809F5 /* ChineseChessIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChineseChessIcon.png; sourceTree = "<group>"; };
 		99CAF1321CFA98BF002809F5 /* GoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoIcon.png; sourceTree = "<group>"; };
 		99CAF1331CFA98BF002809F5 /* Logo.Png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.Png; sourceTree = "<group>"; };
+		99CAF15B1CFA9FFB002809F5 /* ChineseChessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseChessViewController.h; sourceTree = "<group>"; };
+		99CAF15C1CFA9FFB002809F5 /* ChineseChessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseChessViewController.m; sourceTree = "<group>"; };
 		99DFD63B1CF9EBA70038D243 /* Demo_Chinese_Chess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_Chinese_Chess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99DFD63F1CF9EBA70038D243 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		99DFD6411CF9EBA70038D243 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -93,6 +96,8 @@
 				99DFD6451CF9EBA80038D243 /* ViewController.m */,
 				99CAF12C1CFA96D1002809F5 /* MenuViewController.h */,
 				99CAF12D1CFA96D1002809F5 /* MenuViewController.m */,
+				99CAF15B1CFA9FFB002809F5 /* ChineseChessViewController.h */,
+				99CAF15C1CFA9FFB002809F5 /* ChineseChessViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -310,6 +315,7 @@
 				99DFD6711CF9EC620038D243 /* Piece.m in Sources */,
 				99DFD6771CF9EC620038D243 /* Player.m in Sources */,
 				99DFD6701CF9EC620038D243 /* Map.m in Sources */,
+				99CAF15D1CFA9FFB002809F5 /* ChineseChessViewController.m in Sources */,
 				99DFD6721CF9EC620038D243 /* King.m in Sources */,
 				99DFD67B1CF9F08A0038D243 /* Elephant.m in Sources */,
 				99DFD6751CF9EC620038D243 /* Chariot.m in Sources */,

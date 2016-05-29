@@ -154,10 +154,10 @@
             </objects>
             <point key="canvasLocation" x="999" y="461"/>
         </scene>
-        <!--View Controller-->
+        <!--Chinese Chess View Controller-->
         <scene sceneID="wdM-hL-w1h">
             <objects>
-                <viewController id="K7M-Bk-qID" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ChineseChessViewController" id="K7M-Bk-qID" customClass="ChineseChessViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PFT-wb-4ys"/>
                         <viewControllerLayoutGuide type="bottom" id="73p-JU-o7c"/>
