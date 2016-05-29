@@ -271,6 +271,7 @@
 		99DFD6691CF9EC620038D243 /* Piece */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				8466D4381CFAB1470045AA44 /* Advisor.h */,
 				8466D4391CFAB1470045AA44 /* Advisor.m */,
 				8466D3EC1CFAA5F80045AA44 /* BoardProvider.h */,
@@ -290,6 +291,25 @@
 				8466D3DF1CFAA5E80045AA44 /* Piece.m */,
 				8466D3E31CFAA5E80045AA44 /* Soldier.h */,
 				8466D3E41CFAA5E80045AA44 /* Soldier.m */,
+=======
+				99DFD65C1CF9EC620038D243 /* Piece.h */,
+				99DFD65D1CF9EC620038D243 /* Piece.m */,
+				99DFD65E1CF9EC620038D243 /* King.h */,
+				99DFD65F1CF9EC620038D243 /* King.m */,
+				99DFD6601CF9EC620038D243 /* Advisor.h */,
+				99DFD6611CF9EC620038D243 /* Advisor.m */,
+				99DFD6621CF9EC620038D243 /* Horse.h */,
+				99DFD6631CF9EC620038D243 /* Horse.m */,
+				99DFD6641CF9EC620038D243 /* Chariot.h */,
+				99DFD6651CF9EC620038D243 /* Chariot.m */,
+				99DFD6661CF9EC620038D243 /* Cannon.h */,
+				99DFD6671CF9EC620038D243 /* Cannon.m */,
+				99DFD6681CF9EC620038D243 /* BoardProvider.h */,
+				99DFD6791CF9F08A0038D243 /* Elephant.h */,
+				99DFD67A1CF9F08A0038D243 /* Elephant.m */,
+				99DFD67C1CF9F0A70038D243 /* Soldier.h */,
+				99DFD67D1CF9F0A70038D243 /* Soldier.m */,
+>>>>>>> be3029a6e00fc0099f3795289c82c6aa7260a8a3
 			);
 			name = Piece;
 			sourceTree = "<group>";
