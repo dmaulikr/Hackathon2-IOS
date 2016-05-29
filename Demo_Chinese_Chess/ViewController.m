@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MenuViewController.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self setupUI];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (IBAction)btnClickedLogin:(id)sender {
+    MenuViewController *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]]instantiateViewControllerWithIdentifier:@"MenuViewController"];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
+- (void) setupUI {
+    _btnLogin.layer.cornerRadius = 13.0f;
+}
 @end

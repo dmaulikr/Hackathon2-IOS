@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4A3E519E1928789A28C1A77970F78F7E453678E3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4A3E519E1928789A28C1A77970F78F7E453678E3" : 0,
+    "EB14232F81FAF5AC9728C9B1B832CD77BCEEE74A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BA025474-46DA-409B-8F67-09775F98DF1F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4A3E519E1928789A28C1A77970F78F7E453678E3" : "Hackathon2-IOS\/",
+    "EB14232F81FAF5AC9728C9B1B832CD77BCEEE74A" : "iOS3ChessProjects\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Demo_Chinese_Chess",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Demo_Chinese_Chess.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vunsse03669\/Hackathon2-IOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4A3E519E1928789A28C1A77970F78F7E453678E3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/qhuydtvt\/iOS3ChessProjects.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EB14232F81FAF5AC9728C9B1B832CD77BCEEE74A"
+    }
+  ]
+}
